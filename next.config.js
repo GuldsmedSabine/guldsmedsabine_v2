@@ -7,6 +7,7 @@ const nextConfig = {
       "i.etsystatic.com",
       "www.datocms-assets.com",
     ],
+    unoptimized: true,
   },
 };
 const withVideos = require("next-videos");
