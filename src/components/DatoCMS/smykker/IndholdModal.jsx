@@ -27,10 +27,10 @@ function IndholdModal({ content, produktInfo }) {
               <span className="text-stone-400 text-sm">kategori: </span>
               {produktInfo.kategori.kategori}
             </p>
-            <p>
+            {/* <p>
               <span className="text-stone-400 text-sm">Pris: </span>
               {produktInfo.pris},-
-            </p>
+            </p> */}
           </div>
         </div>
         <p className="text-gold-light text-base">{content.tekst}</p>
