@@ -38,7 +38,7 @@ function UdvalgteSmykker({ content }) {
                 />
                 <article className="flex justify-between text-offWhite text-sm mt-2">
                   <p>{udvalgtSmykke.produktNavn}</p>
-                  <p>{udvalgtSmykke.pris + " kr"}</p>
+                  {/*<p>{udvalgtSmykke.pris + " kr"}</p>*/}
                 </article>
               </div>
             </motion.div>
@@ -54,7 +54,7 @@ function UdvalgteSmykker({ content }) {
               />
               <article className="flex justify-between text-offWhite text-sm mt-2">
                 <p>{udvalgtSmykke.produktNavn}</p>
-                <p>{udvalgtSmykke.pris + " kr"}</p>
+                {/*<p>{udvalgtSmykke.pris + " kr"}</p>*/}
               </article>
             </div>
           );
